@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f9fa; /* Light background for the whole page */
+      }
+      h2 {
+        font-family: 'Roboto', sans-serif;
+      }
+    </style>
+
+  </head>
+  <body class="p-10 bg-gradient-to-br from-purple-300 via-pink-200 to-yellow-100">
+
+    <!-- Header Cards Section -->
+    <div class="flex flex-col lg:flex-row gap-10 justify-center items-center mb-12">
+      <!-- Header Card 1 (Valorant) -->
+      <div class="bg-white shadow-lg rounded-2xl w-full max-w-[500px] border border-gray-300 flex-1 flex flex-col p-4 transition-transform hover:scale-105">
+        <div class="text-center pt-4">
+          <p class="text-gray-700 text-4xl font-semibold">Valorant</p>
+        </div>
+        <div class="overflow-hidden h-[300px] flex justify-center items-center bg-gray-200 rounded-lg mt-4">
+          <img src="https://cdn1.epicgames.com/offer/cbd5b3d310a54b12bf3fe8c41994174f/EGS_VALORANT_RiotGames_S1_2560x1440-543b60e5e4a0af08f8001e8faf7e1bc3?resize=1&w=480&h=270&quality=medium" alt="Card 1" class="w-full h-full object-cover rounded-lg" />
+        </div>
+      </div>
+
+      <!-- Header Card 2 (Apex Legends) -->
+      <div class="bg-white shadow-lg rounded-2xl w-full max-w-[500px] border border-gray-300 flex-1 flex flex-col p-4 transition-transform hover:scale-105">
+        <div class="text-center pt-4">
+          <p class="text-gray-700 text-4xl font-semibold">Apex Legends</p>
+        </div>
+        <div class="overflow-hidden h-[300px] flex justify-center items-center bg-gray-200 rounded-lg mt-4">
+          <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172470/ffbb3e6e82ceb4b3fa219d2e207c98b566a0a33e/capsule_616x353.jpg?t=1736940058" alt="Card 2" class="w-full h-full object-cover rounded-lg" />
+        </div>
+      </div>
+
+      <!-- Header Card 3 (PUBG) -->
+      <div class="bg-white shadow-lg rounded-2xl w-full max-w-[500px] border border-gray-300 flex-1 flex flex-col p-4 transition-transform hover:scale-105">
+        <div class="text-center pt-4">
+          <p class="text-gray-700 text-4xl font-semibold">PUBG: Battlegrounds</p>
+        </div>
+        <div class="overflow-hidden h-[300px] flex justify-center items-center bg-gray-200 rounded-lg mt-4">
+          <img src="https://cdn1.epicgames.com/spt-assets/53ec4985296b4facbe3a8d8d019afba9/pubg-battlegrounds-16v1j.jpg" alt="Card 3" class="w-full h-full object-cover rounded-lg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Description Cards Section -->
+    <div class="flex flex-col lg:flex-row gap-10 justify-center items-center mb-12">
+      <!-- Description Card 1 (Valorant) -->
+      <div class="bg-white shadow-lg rounded-2xl w-full max-w-[500px] p-6 border border-gray-300 flex-1 flex flex-col transition-transform hover:scale-105">
+        <p class="text-center text-gray-700 text-lg font-medium">เกมแนว FPS จาก Riot Games ที่เน้นกลยุทธ์และความแม่นยำ</p>
+      </div>
+
+      <!-- Description Card 2 (Apex Legends) -->
+      <div class="bg-white shadow-lg rounded-2xl w-full max-w-[500px] p-6 border border-gray-300 flex-1 flex flex-col transition-transform hover:scale-105">
+        <p class="text-center text-gray-700 text-lg font-medium">เกม Battle Royale ที่รวดเร็วและมีฮีโร่หลากหลายให้เลือกเล่น</p>
+      </div>
+
+      <!-- Description Card 3 (PUBG) -->
+      <div class="bg-white shadow-lg rounded-2xl w-full max-w-[500px] p-6 border border-gray-300 flex-1 flex flex-col transition-transform hover:scale-105">
+        <p class="text-center text-gray-700 text-lg font-medium">ต้นฉบับของเกมแนวเอาตัวรอด ที่มีผู้เล่นต่อสู้กันเพื่อเป็นคนสุดท้าย</p>
+      </div>
+    </div>
+
+    <!-- Video Cards Section -->
+    <div class="flex flex-col lg:flex-row gap-10 justify-center items-center mb-12">
+      <!-- Video Card 1 (Valorant) -->
+      <div class="bg-white shadow-lg rounded-2xl w-full max-w-[500px] p-4 border border-gray-300 flex-1 flex flex-col transition-transform hover:scale-105">
+        <div class="text-center pt-4">
+          <h2 class="text-xl font-bold text-blue-600">Valorant Trailer</h2>
+        </div>
+        <div class="overflow-hidden h-[300px] flex items-center justify-center bg-black rounded-lg mt-4">
+          <iframe class="w-full h-full" src="Valorant.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="text-center mt-4">
+          <a href="https://playvalorant.com/" target="_blank" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">
+            ไปยังเว็บไซต์เกม
+          </a>
+        </div>
+      </div>
+
+      <!-- Video Card 2 (Apex Legends) -->
+      <div class="bg-white shadow-lg rounded-2xl w-full max-w-[500px] p-4 border border-gray-300 flex-1 flex flex-col transition-transform hover:scale-105">
+        <div class="text-center pt-4">
+          <h2 class="text-xl font-bold text-red-600">Apex Legends Trailer</h2>
+        </div>
+        <div class="overflow-hidden h-[300px] flex items-center justify-center bg-black rounded-lg mt-4">
+          <iframe class="w-full h-full" src="ApexLegends.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="text-center mt-4">
+          <a href="https://www.ea.com/games/apex-legends" target="_blank" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">
+            ไปยังเว็บไซต์เกม
+          </a>
+        </div>
+      </div>
+
+      <!-- Video Card 3 (PUBG) -->
+      <div class="bg-white shadow-lg rounded-2xl w-full max-w-[500px] p-4 border border-gray-300 flex-1 flex flex-col transition-transform hover:scale-105">
+        <div class="text-center pt-4">
+          <h2 class="text-xl font-bold text-green-600">PUBG: Battlegrounds Trailer</h2>
+        </div>
+        <div class="overflow-hidden h-[300px] flex items-center justify-center bg-black rounded-lg mt-4">
+          <iframe class="w-full h-full" src="PUBG.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="text-center mt-4">
+          <a href="https://pubg.com/" target="_blank" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">
+            ไปยังเว็บไซต์เกม
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  
+  </body>
+  <footer class="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow-sm md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+    </span>
+</footer>
+</html>
